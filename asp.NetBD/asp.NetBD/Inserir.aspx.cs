@@ -39,7 +39,7 @@ namespace asp.NetBD
 
                 cmd.ExecuteNonQuery();
                 lblResultado.Text = "Cliente Inserido";
-
+                Response.Redirect("Listar.aspx");
 
             }
             catch (Exception ex)
