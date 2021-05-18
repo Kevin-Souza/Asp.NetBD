@@ -46,7 +46,7 @@
                     </td>
                     <td>
                         <asp:LinkButton ID="lnkDetalhes" runat="server">
-                            <a href='<%# Eval("cli_id","detalhes.aspx?id={0}") %>'>
+                            <a href='<%# Eval("cli_id","Detalhes.aspx?id={0}") %>'>
                                 <span class="fas fa-eye"></span>
                             </a>
                         </asp:LinkButton>
