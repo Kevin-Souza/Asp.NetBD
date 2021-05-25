@@ -47,6 +47,7 @@
     </div>
     <div class="row" style="margin-top:15px">
         <div class="text-right col-md-12">
+            <asp:Button ID="btnVoltar" CssClass="btn btn-info" runat="server" text="Voltar" OnClick="btnVoltar_Click" />            
             <asp:Button ID="btnAlterar" CssClass="btn btn-warning" runat="server" Text="Alterar" OnClick="btnAlterar_Click" />
         </div>
     </div>
